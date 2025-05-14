@@ -1,0 +1,14 @@
+transformers[torch]
+accelerate
+sacrebleu
+datasets
+jiwer
+editdistance
+pandas
+scikit-learn
+huggingface_hub
+torch
+nltk
+peft
+sentencepiece
+tqdm
