@@ -377,18 +377,3 @@ if __name__ == "__main__":
     )
 
     processor.process_and_save()
-
-    # --- Example command to run this script ---
-    # python Data_Clean.py \
-    #   --input_files Files/Other_Texts.txt Files/Wikimedia.txt Files/Wikipedia.txt Files/Bible.txt Files/Tanzil.txt \
-    #   --output_dir_base Processed_Data \
-    #   --train_file_name train_data.tsv \
-    #   --val_file_name val_data.tsv \
-    #   --test_file_name test_data.tsv \
-    #   --train_size 50000 \
-    #   --val_size 5000 \
-    #   --test_size 5000 \
-    #   --noise_random_spacing 0.02 \
-    #   --noise_remove_spaces 0.12 \
-    #   --clean_output_file_name all_clean_sentences.txt \
-    #   --seed 123
